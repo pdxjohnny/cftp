@@ -1,4 +1,4 @@
 #!/bin/bash
 
-find ./ -type f -exec sed -i -e "s/default_username/${1}/g" {} \;
-find ./ -type f -exec sed -i -e "s/default_app_name/${2}/g" {} \;
+find ./ -type f -exec sed -i -e "s/pdxjohnny/${1}/g" {} \;
+find ./ -type f -exec sed -i -e "s/cftp/${2}/g" {} \;

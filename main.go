@@ -5,12 +5,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/default_username/default_app_name/commands"
+	"github.com/pdxjohnny/cftp/commands"
 )
 
 func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
-	var rootCmd = &cobra.Command{Use: "default_app_name"}
+	var rootCmd = &cobra.Command{Use: "cftp"}
 	rootCmd.AddCommand(commands.Commands...)
 	rootCmd.Execute()
 }

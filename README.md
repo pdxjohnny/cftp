@@ -1,7 +1,7 @@
-Docker Go Base
+CFTP
 ---
 
-This repo is meant to be used as a starting point for go projects
+This project attempts to provide access to an encrypted filesystem via sftp
 
 It uses docker to compile the binaries and the main Dockerfile adds the linux
 binary to the busybox image to create an extremely small final image
@@ -10,7 +10,7 @@ Building
 ---
 
 ```bash
-go build -o default_app_name_linux-amd64 -tags netgo *.go
+go build -o cftp_linux-amd64 -tags netgo *.go
 # Or
 ./script/build
 ```
@@ -20,8 +20,8 @@ Running
 ---
 
 ```bash
-./default_app_name_linux-amd64
-docker run --rm -ti default_username/default_app_name
+./cftp_linux-amd64
+docker run --rm -ti pdxjohnny/cftp
 ```
 
 Changing The Name

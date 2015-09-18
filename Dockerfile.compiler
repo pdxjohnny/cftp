@@ -1,7 +1,7 @@
 FROM pdxjohnny/gox
 
-ENV GOPATH /go/src/github.com/default_username/default_app_name/Godeps/_workspace:/go
+ENV GOPATH /go/src/github.com/pdxjohnny/cftp/Godeps/_workspace:/go
 
-WORKDIR /go/src/github.com/default_username/default_app_name
+WORKDIR /go/src/github.com/pdxjohnny/cftp
 
-ADD . /go/src/github.com/default_username/default_app_name
+ADD . /go/src/github.com/pdxjohnny/cftp

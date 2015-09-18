@@ -1,11 +1,11 @@
 package sample
 
 import (
-  "fmt"
+	"fmt"
 
-  "github.com/spf13/viper"
+	"github.com/spf13/viper"
 )
 
-func Run()  {
-  fmt.Println("Hello", viper.GetString("name"))
+func Run() {
+	fmt.Println("Hello", viper.GetString("name"))
 }

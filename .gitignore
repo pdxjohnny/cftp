@@ -1,8 +1,9 @@
 Godeps/_workspace
 Godeps/Readme
 build/
+keys/
 tmp/
 
 bower_components/
 
-default_app_name_*
+cftp_*

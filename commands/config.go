@@ -79,6 +79,6 @@ func ConfigBindFlags(cmd *cobra.Command) {
 }
 
 func ConfigEnv() {
-	viper.SetEnvPrefix("default_app_name")
+	viper.SetEnvPrefix("cftp")
 	viper.AutomaticEnv()
 }
